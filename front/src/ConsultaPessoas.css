@@ -1,0 +1,21 @@
+.consulta-pessoas-container {
+    padding: 20px;
+    text-align: center; /* Centralizando o conteúdo */
+  }
+  
+  .title {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+  }
+  
+  .export-button {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  

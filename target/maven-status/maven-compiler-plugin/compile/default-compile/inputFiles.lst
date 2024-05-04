@@ -1,0 +1,13 @@
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\controller\CadastroController.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\util\DuplicidadeCpfException.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\CadastroApplication.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\model\Pessoa.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\config\RabbitMQConfig.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\queues\PessoaConsumer.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\config\RequestInterceptor.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\service\PessoaService.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\repository\PessoaRepository.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\queues\PessoaProducer.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\repository\EnderecoRepository.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\config\WebMvcConfig.java
+C:\Users\vagne\Downloads\projeto_emiteai\projeto_emiteai\src\main\java\com\emiteai\cadastro\model\Endereco.java

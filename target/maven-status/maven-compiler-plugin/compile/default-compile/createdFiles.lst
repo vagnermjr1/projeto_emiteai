@@ -1,0 +1,10 @@
+com\emiteai\cadastro\model\Pessoa.class
+com\emiteai\cadastro\util\DuplicidadeCpfException.class
+com\emiteai\cadastro\model\Endereco.class
+com\emiteai\cadastro\CadastroApplication.class
+com\emiteai\cadastro\controller\CadastroController.class
+com\emiteai\cadastro\config\RequestInterceptor.class
+com\emiteai\cadastro\service\PessoaService.class
+com\emiteai\cadastro\repository\PessoaRepository.class
+com\emiteai\cadastro\repository\EnderecoRepository.class
+com\emiteai\cadastro\config\WebMvcConfig.class
