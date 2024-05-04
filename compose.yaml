@@ -13,7 +13,7 @@ services:
 
   backend:
     build:
-      context: ./
+      context: ./back
       dockerfile: Dockerfile
     container_name: spring-boot-app
     ports:
@@ -23,6 +23,7 @@ services:
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: 123456
       SPRING_FLYWAY_LOCATIONS: classpath:db/migration
+      volumes: ./logs/log
     depends_on:
       - postgres
 

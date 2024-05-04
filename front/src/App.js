@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ConsultaPessoas from './ConsultaPessoas';
-import PersonForm from './PersonForm';
+import CadastroPessoa from './CadastroPessoa';
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<ConsultaPessoas />} />
-        <Route path="/cadastro" element={<PersonForm />} />
+        <Route path="/cadastro" element={<CadastroPessoa />} />
       </Routes>
     </Router>
   );

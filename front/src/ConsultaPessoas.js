@@ -10,6 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { CSVLink } from 'react-csv';
 import './ConsultaPessoas.css';
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 const ConsultaPessoas = () => {
   const [pessoas, setPessoas] = useState([]);
@@ -46,9 +47,17 @@ const ConsultaPessoas = () => {
     <div className="consulta-pessoas-container">
       <h2 className="title">Consulta de Pessoas</h2>
       <div className="export-button">
-        <CSVLink data={exportToCSV()} filename={"pessoas.csv"}>
-          <Button variant="contained" color="primary">Exportar para CSV</Button>
-        </CSVLink>
+      <CSVLink data={exportToCSV()} filename={"pessoas.csv"} style={{ textDecoration: 'none' }}>
+      <Button
+        variant="contained"
+        color="primary"
+        startIcon={<CloudDownloadIcon />}
+        size="large"
+        style={{ textTransform: 'none' }}
+      >
+        Exportar para CSV
+      </Button>
+    </CSVLink>
       </div>
       <TableContainer component={Paper}>
         <Table>
